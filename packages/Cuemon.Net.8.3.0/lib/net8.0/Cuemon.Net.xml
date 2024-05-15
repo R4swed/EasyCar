@@ -1,0 +1,671 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Cuemon.Net</name>
+    </assembly>
+    <members>
+        <member name="T:Cuemon.Net.ByteArrayDecoratorExtensions">
+            <summary>
+            Extension methods for the <see cref="T:byte[]"/> hidden behind the <see cref="T:Cuemon.IDecorator`1"/> interface.
+            </summary>
+            <seealso cref="T:Cuemon.IDecorator`1"/>
+            <seealso cref="T:Cuemon.Decorator`1"/>
+        </member>
+        <member name="M:Cuemon.Net.ByteArrayDecoratorExtensions.UrlEncode(Cuemon.IDecorator{System.Byte[]},System.Int32,System.Int32,System.Action{Cuemon.Text.EncodingOptions})">
+            <summary>
+            Converts the enclosed <see cref="T:byte[]"/> of the specified <paramref name="decorator"/> into a URL-encoded array of bytes, starting at the specified <paramref name="position"/> in the array and continuing for the specified number of <paramref name="bytesToRead"/>.
+            </summary>
+            <param name="decorator">The <see cref="T:IDecorator{byte[]}"/> to extend.</param>
+            <param name="position">The position in the byte array at which to begin encoding.</param>
+            <param name="bytesToRead">The number of bytes to encode.</param>
+            <param name="setup">The <see cref="T:Cuemon.Text.EncodingOptions"/> which may be configured.</param>
+            <returns>An encoded <see cref="T:byte[]"/>.</returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="decorator"/> cannot be null.
+            </exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            <paramref name="position" /> is lower than 0 - or -
+            <paramref name="bytesToRead" /> is lower than 0 - or -
+            <paramref name="position" /> is greater than or equal to the length of the enclosed <see cref="T:byte[]"/> of the specified <paramref name="decorator"/> - or -
+            <paramref name="bytesToRead" /> is greater than (the length of the enclosed <see cref="T:byte[]"/> of the specified <paramref name="decorator"/> minus <paramref name="position"/>).
+            </exception>
+        </member>
+        <member name="T:Cuemon.Net.Collections.Specialized.NameValueCollectionDecoratorExtensions">
+            <summary>
+            Extension methods for the <see cref="T:System.Collections.Specialized.NameValueCollection"/> class hidden behind the <see cref="T:Cuemon.IDecorator`1"/> interface.
+            </summary>
+            <seealso cref="T:Cuemon.IDecorator`1"/>
+            <seealso cref="T:Cuemon.Decorator`1"/>
+        </member>
+        <member name="M:Cuemon.Net.Collections.Specialized.NameValueCollectionDecoratorExtensions.ToString(Cuemon.IDecorator{System.Collections.Specialized.NameValueCollection},Cuemon.Net.FieldValueSeparator,System.Boolean)">
+            <summary>
+            Returns a <see cref="T:System.String" /> that represents the enclosed <see cref="T:System.Collections.Specialized.NameValueCollection"/> of the <paramref name="decorator"/>.
+            </summary>
+            <param name="decorator">The <see cref="T:Cuemon.IDecorator`1"/> to extend.</param>
+            <param name="separator">The separator used to form the key-value pairs.</param>
+            <param name="urlEncode">Specify <c>true</c> to encode the values of the enclosed <see cref="T:System.Collections.Specialized.NameValueCollection"/> of the <paramref name="decorator"/> into a URL-encoded string; otherwise, <c>false</c>. Default is <c>false</c>.</param>
+            <returns>A <see cref="T:System.String" /> that represents the enclosed <see cref="T:System.Collections.Specialized.NameValueCollection"/> of the <paramref name="decorator"/>.</returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="decorator"/> cannot be null.
+            </exception>
+        </member>
+        <member name="T:Cuemon.Net.StringDecoratorExtensions">
+            <summary>
+            Extension methods for the <see cref="T:System.String"/> class hidden behind the <see cref="T:Cuemon.IDecorator`1"/> interface.
+            </summary>
+            <seealso cref="T:Cuemon.IDecorator`1"/>
+            <seealso cref="T:Cuemon.Decorator`1"/>
+            <remarks>
+            Kudos to the mono-project team for this class. I only modified some of the original code to fit into this class. For the original code, have a visit here for the source code: https://github.com/mono/mono/blob/master/mcs/class/System.Web/System.Web/HttpUtility.cs or here for the mono-project website: http://www.mono-project.com/.
+            Primary reason for including these methods: https://edi.wang/post/2018/11/25/netcore-webutility-urlencode-httputility-urlencode
+            </remarks>
+        </member>
+        <member name="M:Cuemon.Net.StringDecoratorExtensions.UrlEncode(Cuemon.IDecorator{System.String},System.Action{Cuemon.Text.EncodingOptions})">
+            <summary>
+            Encodes a URL string from the enclosed <see cref="T:System.String"/> of the specified <paramref name="decorator"/>.
+            </summary>
+            <param name="decorator">The <see cref="T:Cuemon.IDecorator`1"/> to extend.</param>
+            <param name="setup">The <see cref="T:Cuemon.Text.EncodingOptions"/> which may be configured.</param>
+            <returns>An URL encoded string.</returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="decorator"/> cannot be null.
+            </exception>
+        </member>
+        <member name="M:Cuemon.Net.StringDecoratorExtensions.UrlDecode(Cuemon.IDecorator{System.String},System.Action{Cuemon.Text.EncodingOptions})">
+            <summary>
+            Converts the enclosed <see cref="T:System.String"/> of the specified <paramref name="decorator"/> that has been encoded for transmission in a URL into a decoded string.
+            </summary>
+            <param name="decorator">The <see cref="T:Cuemon.IDecorator`1"/> to extend.</param>
+            <param name="setup">The <see cref="T:Cuemon.Text.EncodingOptions"/> which may be configured.</param>
+            <returns>An URL decoded string.</returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="decorator"/> cannot be null.
+            </exception>
+        </member>
+        <member name="T:Cuemon.Net.FieldValueSeparator">
+            <summary>
+            Specifies a range of key-value separators.
+            </summary>
+        </member>
+        <member name="F:Cuemon.Net.FieldValueSeparator.Ampersand">
+            <summary>
+            An ampersand (&amp;) separator.
+            </summary>
+        </member>
+        <member name="F:Cuemon.Net.FieldValueSeparator.Semicolon">
+            <summary>
+            A semicolon (;) separator.
+            </summary>
+        </member>
+        <member name="T:Cuemon.Net.Http.HttpDependency">
+            <summary>
+            Provides a way to monitor any changes occurred to one or more URI resources while notifying subscribing objects.
+            </summary>
+            <seealso cref="T:Cuemon.Runtime.Dependency" />
+        </member>
+        <member name="M:Cuemon.Net.Http.HttpDependency.#ctor(System.Lazy{Cuemon.Net.Http.HttpWatcher},System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Cuemon.Net.Http.HttpDependency"/> class.
+            </summary>
+            <param name="lazyFileWatcher">The <see cref="T:Cuemon.Net.Http.HttpWatcher"/> to associate with this dependency.</param>
+            <param name="breakTieOnChanged">if set to <c>true</c> all <see cref="T:Cuemon.Net.Http.HttpWatcher"/> instances is disassociated with this dependency after first notification of changed.</param>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="lazyFileWatcher"/> cannot be null.
+            </exception>
+            <remarks>The <see cref="T:Cuemon.Net.Http.HttpWatcher"/> initialization is deferred until <see cref="M:Cuemon.Runtime.Dependency.StartAsync"/> is invoked.</remarks>
+        </member>
+        <member name="M:Cuemon.Net.Http.HttpDependency.#ctor(System.Collections.Generic.IEnumerable{System.Lazy{Cuemon.Net.Http.HttpWatcher}},System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Cuemon.Net.Http.HttpDependency"/> class.
+            </summary>
+            <param name="lazyFileWatchers">The <see cref="T:Cuemon.Net.Http.HttpWatcher"/> sequence to associate with this dependency.</param>
+            <param name="breakTieOnChanged">if set to <c>true</c> all <see cref="T:Cuemon.Net.Http.HttpWatcher"/> instances is disassociated with this dependency after first notification of changed.</param>
+            <remarks>The sequence of <see cref="T:Cuemon.Net.Http.HttpWatcher"/> initializations is deferred until <see cref="M:Cuemon.Runtime.Dependency.StartAsync"/> is invoked.</remarks>
+        </member>
+        <member name="T:Cuemon.Net.Http.HttpManager">
+            <summary>
+            Provides ways for sending HTTP requests and receiving HTTP responses from a resource identified by a URI.
+            </summary>
+            <seealso cref="T:System.IDisposable" />
+        </member>
+        <member name="M:Cuemon.Net.Http.HttpManager.#ctor(System.Action{Cuemon.Net.Http.HttpManagerOptions})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Cuemon.Net.Http.HttpManager" /> class.
+            </summary>
+            <param name="setup">The <see cref="T:Cuemon.Net.Http.HttpManagerOptions"/> which may be configured.</param>
+            <exception cref="T:System.ArgumentNullException">
+            The <see cref="P:Cuemon.Net.Http.HttpManagerOptions.HandlerFactory"/> of the <paramref name="setup"/> delegate cannot be null.
+            </exception>
+        </member>
+        <member name="M:Cuemon.Net.Http.HttpManager.#ctor(System.Func{System.Net.Http.HttpClient})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Cuemon.Net.Http.HttpManager"/> class.
+            </summary>
+            <param name="clientFactory">The function delegate that creates and configures an <see cref="T:System.Net.Http.HttpClient"/> instance.</param>
+        </member>
+        <member name="M:Cuemon.Net.Http.HttpManager.OnDisposeManagedResources">
+            <summary>
+            Called when this object is being disposed by either <see cref="M:Cuemon.Disposable.Dispose" /> or <see cref="M:Cuemon.Disposable.Dispose(System.Boolean)" /> having <c>disposing</c> set to <c>true</c> and <see cref="P:Cuemon.Disposable.Disposed" /> is <c>false</c>.
+            </summary>
+        </member>
+        <member name="P:Cuemon.Net.Http.HttpManager.DefaultRequestHeaders">
+            <summary>
+            Gets the headers which should be sent with each request.
+            </summary>
+            <value>The headers which should be sent with each request.</value>
+        </member>
+        <member name="P:Cuemon.Net.Http.HttpManager.Timeout">
+            <summary>
+            Gets or sets the timespan to wait before the request times out.
+            </summary>
+            <value>The timespan to wait before the request times out.</value>
+        </member>
+        <member name="M:Cuemon.Net.Http.HttpManager.HttpDeleteAsync(System.Uri,System.Threading.CancellationToken)">
+            <summary>
+            Send a DELETE request to the specified Uri as an asynchronous operation.
+            </summary>
+            <param name="location">The <see cref="T:System.Uri"/> to request.</param>
+            <param name="ct">The cancellation token to cancel operation.</param>
+            <returns>The task object representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:Cuemon.Net.Http.HttpManager.HttpGetAsync(System.Uri,System.Threading.CancellationToken)">
+            <summary>
+            Send a GET request to the specified Uri as an asynchronous operation.
+            </summary>
+            <param name="location">The <see cref="T:System.Uri"/> to request.</param>
+            <param name="ct">The cancellation token to cancel operation.</param>
+            <returns>The task object representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:Cuemon.Net.Http.HttpManager.HttpHeadAsync(System.Uri,System.Threading.CancellationToken)">
+            <summary>
+            Send a HEAD request to the specified Uri as an asynchronous operation.
+            </summary>
+            <param name="location">The <see cref="T:System.Uri"/> to request.</param>
+            <param name="ct">The cancellation token to cancel operation.</param>
+            <returns>The task object representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:Cuemon.Net.Http.HttpManager.HttpOptionsAsync(System.Uri,System.Threading.CancellationToken)">
+            <summary>
+            Send an OPTIONS request to the specified Uri as an asynchronous operation.
+            </summary>
+            <param name="location">The <see cref="T:System.Uri"/> to request.</param>
+            <param name="ct">The cancellation token to cancel operation.</param>
+            <returns>The task object representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:Cuemon.Net.Http.HttpManager.HttpTraceAsync(System.Uri,System.Threading.CancellationToken)">
+            <summary>
+            Send a TRACE request to the specified Uri as an asynchronous operation.
+            </summary>
+            <param name="location">The <see cref="T:System.Uri"/> to request.</param>
+            <param name="ct">The cancellation token to cancel operation.</param>
+            <returns>The task object representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:Cuemon.Net.Http.HttpManager.HttpPostAsync(System.Uri,System.String,System.IO.Stream,System.Threading.CancellationToken)">
+            <summary>
+            Send a POST request to the specified Uri as an asynchronous operation.
+            </summary>
+            <param name="location">The <see cref="T:System.Uri"/> to request.</param>
+            <param name="contentType">The Content-Type header of the HTTP request sent to the server.</param>
+            <param name="content">The HTTP request content sent to the server.</param>
+            <param name="ct">The cancellation token to cancel operation.</param>
+            <returns>The task object representing the asynchronous operation.</returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="contentType"/> cannot be null -or-
+            <paramref name="content"/> cannot be null.
+            </exception>
+        </member>
+        <member name="M:Cuemon.Net.Http.HttpManager.HttpPostAsync(System.Uri,System.Net.Http.Headers.MediaTypeHeaderValue,System.IO.Stream,System.Threading.CancellationToken)">
+            <summary>
+            Send a POST request to the specified Uri as an asynchronous operation.
+            </summary>
+            <param name="location">The <see cref="T:System.Uri"/> to request.</param>
+            <param name="contentType">The Content-Type header of the HTTP request sent to the server.</param>
+            <param name="content">The HTTP request content sent to the server.</param>
+            <param name="ct">The cancellation token to cancel operation.</param>
+            <returns>The task object representing the asynchronous operation.</returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="contentType"/> cannot be null -or-
+            <paramref name="content"/> cannot be null.
+            </exception>
+        </member>
+        <member name="M:Cuemon.Net.Http.HttpManager.HttpPutAsync(System.Uri,System.String,System.IO.Stream,System.Threading.CancellationToken)">
+            <summary>
+            Send a PUT request to the specified Uri as an asynchronous operation.
+            </summary>
+            <param name="location">The <see cref="T:System.Uri"/> to request.</param>
+            <param name="contentType">The Content-Type header of the HTTP request sent to the server.</param>
+            <param name="content">The HTTP request content sent to the server.</param>
+            <param name="ct">The cancellation token to cancel operation.</param>
+            <returns>The task object representing the asynchronous operation.</returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="contentType"/> cannot be null -or-
+            <paramref name="content"/> cannot be null.
+            </exception>
+        </member>
+        <member name="M:Cuemon.Net.Http.HttpManager.HttpPutAsync(System.Uri,System.Net.Http.Headers.MediaTypeHeaderValue,System.IO.Stream,System.Threading.CancellationToken)">
+            <summary>
+            Send a PUT request to the specified Uri as an asynchronous operation.
+            </summary>
+            <param name="location">The <see cref="T:System.Uri"/> to request.</param>
+            <param name="contentType">The Content-Type header of the HTTP request sent to the server.</param>
+            <param name="content">The HTTP request content sent to the server.</param>
+            <param name="ct">The cancellation token to cancel operation.</param>
+            <returns>The task object representing the asynchronous operation.</returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="contentType"/> cannot be null -or-
+            <paramref name="content"/> cannot be null.
+            </exception>
+        </member>
+        <member name="M:Cuemon.Net.Http.HttpManager.HttpPatchAsync(System.Uri,System.String,System.IO.Stream,System.Threading.CancellationToken)">
+            <summary>
+            Send a PATCH request to the specified Uri as an asynchronous operation.
+            </summary>
+            <param name="location">The <see cref="T:System.Uri"/> to request.</param>
+            <param name="contentType">The Content-Type header of the HTTP request sent to the server.</param>
+            <param name="content">The HTTP request content sent to the server.</param>
+            <param name="ct">The cancellation token to cancel operation.</param>
+            <returns>The task object representing the asynchronous operation.</returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="contentType"/> cannot be null -or-
+            <paramref name="content"/> cannot be null.
+            </exception>
+        </member>
+        <member name="M:Cuemon.Net.Http.HttpManager.HttpPatchAsync(System.Uri,System.Net.Http.Headers.MediaTypeHeaderValue,System.IO.Stream,System.Threading.CancellationToken)">
+            <summary>
+            Send a PATCH request to the specified Uri as an asynchronous operation.
+            </summary>
+            <param name="location">The <see cref="T:System.Uri"/> to request.</param>
+            <param name="contentType">The Content-Type header of the HTTP request sent to the server.</param>
+            <param name="content">The HTTP request content sent to the server.</param>
+            <param name="ct">The cancellation token to cancel operation.</param>
+            <returns>The task object representing the asynchronous operation.</returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="contentType"/> cannot be null -or-
+            <paramref name="content"/> cannot be null.
+            </exception>
+        </member>
+        <member name="M:Cuemon.Net.Http.HttpManager.HttpAsync(System.Net.Http.HttpMethod,System.Uri,System.String,System.IO.Stream,System.Threading.CancellationToken)">
+            <summary>
+            Send a request as an asynchronous operation.
+            </summary>
+            <param name="method">The HTTP method.</param>
+            <param name="location">The <see cref="T:System.Uri"/> to request.</param>
+            <param name="contentType">The Content-Type header of the HTTP request sent to the server.</param>
+            <param name="content">The HTTP request content sent to the server.</param>
+            <param name="ct">The cancellation token to cancel operation.</param>
+            <returns>The task object representing the asynchronous operation.</returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="method"/> cannot be null -or-
+            <paramref name="location"/> cannot be null -or-
+            <paramref name="contentType"/> cannot be null -or-
+            <paramref name="content"/> cannot be null.
+            </exception>
+        </member>
+        <member name="M:Cuemon.Net.Http.HttpManager.HttpAsync(System.Net.Http.HttpMethod,System.Uri,System.Net.Http.Headers.MediaTypeHeaderValue,System.IO.Stream,System.Threading.CancellationToken)">
+            <summary>
+            Send a request as an asynchronous operation.
+            </summary>
+            <param name="method">The HTTP method.</param>
+            <param name="location">The <see cref="T:System.Uri"/> to request.</param>
+            <param name="contentType">The Content-Type header of the HTTP request sent to the server.</param>
+            <param name="content">The HTTP request content sent to the server.</param>
+            <param name="ct">The cancellation token to cancel operation.</param>
+            <returns>The task object representing the asynchronous operation.</returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="method"/> cannot be null -or-
+            <paramref name="location"/> cannot be null -or-
+            <paramref name="contentType"/> cannot be null -or-
+            <paramref name="content"/> cannot be null.
+            </exception>
+        </member>
+        <member name="M:Cuemon.Net.Http.HttpManager.HttpAsync(System.Uri,System.Action{Cuemon.Net.Http.HttpRequestOptions})">
+            <summary>
+            Send a request as an asynchronous operation.
+            </summary>
+            <param name="location">The <see cref="T:System.Uri"/> to request.</param>
+            <param name="setup">The <see cref="T:Cuemon.Net.Http.HttpRequestOptions"/> which need to be configured.</param>
+            <returns>The task object representing the asynchronous operation.</returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="location"/> cannot be null -or-
+            <paramref name="setup"/> cannot be null.
+            </exception>
+        </member>
+        <member name="T:Cuemon.Net.Http.HttpManagerOptions">
+            <summary>
+            Specifies options that is related to the <see cref="T:Cuemon.Net.Http.HttpManager"/> class.
+            </summary>
+            <seealso cref="T:Cuemon.Configuration.IValidatableParameterObject"/>
+        </member>
+        <member name="M:Cuemon.Net.Http.HttpManagerOptions.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Cuemon.Net.Http.HttpManagerOptions"/> class.
+            </summary>
+            <remarks>
+            The following table shows the initial property values for an instance of <see cref="T:Cuemon.Net.Http.HttpManagerOptions"/>.
+            <list type="table">
+                <listheader>
+                    <term>Property</term>
+                    <description>Initial Value</description>
+                </listheader>
+                <item>
+                    <term><see cref="P:Cuemon.Net.Http.HttpManagerOptions.DisposeHandler"/></term>
+                    <description><c>false</c></description>
+                </item>
+                <item>
+                    <term><see cref="P:Cuemon.Net.Http.HttpManagerOptions.DefaultRequestHeaders"/></term>
+                    <description>Connection: Keep-Alive</description>
+                </item>
+                <item>
+                    <term><see cref="P:Cuemon.Net.Http.HttpManagerOptions.HandlerFactory"/></term>
+                    <description><see cref="T:System.Net.Http.HttpClientHandler"/> initialized with <see cref="P:System.Net.Http.HttpClientHandler.AutomaticDecompression"/> for GZip|Deflate and <see cref="P:System.Net.Http.HttpClientHandler.MaxAutomaticRedirections"/> to 10.</description>
+                </item>
+                <item>
+                    <term><see cref="P:Cuemon.Net.Http.HttpManagerOptions.Timeout"/></term>
+                    <description>2 minutes</description>
+                </item>
+            </list>
+            </remarks>
+        </member>
+        <member name="P:Cuemon.Net.Http.HttpManagerOptions.DisposeHandler">
+            <summary>
+            Gets or sets a value indicating whether the inner handler should be disposed of by Dispose().
+            </summary>
+            <value><c>true</c> if if the inner handler should be disposed of by Dispose(); otherwise, <c>false</c> if you intend to reuse the inner handler.</value>
+        </member>
+        <member name="P:Cuemon.Net.Http.HttpManagerOptions.DefaultRequestHeaders">
+            <summary>
+            Gets or sets the default headers which should be sent with each request.
+            </summary>
+            <value>The default headers which should be sent with each request.</value>
+        </member>
+        <member name="P:Cuemon.Net.Http.HttpManagerOptions.HandlerFactory">
+            <summary>
+            Gets or sets the HTTP handler stack to use for sending requests.
+            </summary>
+            <value>The HTTP handler stack to use for sending requests.</value>
+        </member>
+        <member name="P:Cuemon.Net.Http.HttpManagerOptions.Timeout">
+            <summary>
+            Gets or sets the timespan to wait before the request times out. Default is 2 minutes.
+            </summary>
+            <value>The timespan to wait before the request times out.</value>
+        </member>
+        <member name="M:Cuemon.Net.Http.HttpManagerOptions.ValidateOptions">
+            <summary>
+            Determines whether the public read-write properties of this instance are in a valid state.
+            </summary>
+            <exception cref="T:System.InvalidOperationException">
+            <see cref="P:Cuemon.Net.Http.HttpManagerOptions.HandlerFactory"/> cannot be null - or -
+            <see cref="P:Cuemon.Net.Http.HttpManagerOptions.DefaultRequestHeaders"/> cannot be null.
+            </exception>
+            <remarks>This method is expected to throw exceptions when one or more conditions fails to be in a valid state.</remarks>
+        </member>
+        <member name="T:Cuemon.Net.Http.HttpMethodConverter">
+            <summary>
+            This utility class is designed to make <see cref="T:System.Net.Http.HttpMethod"/> related conversions easier to work with.
+            </summary>
+        </member>
+        <member name="M:Cuemon.Net.Http.HttpMethodConverter.ToHttpMethod(System.Net.Http.HttpMethod)">
+            <summary>
+            Converts the specified <paramref name="method"/> to its equivalent <see cref="T:Cuemon.Net.Http.HttpMethods"/> representation.
+            </summary>
+            <param name="method">The <see cref="T:System.Net.Http.HttpMethod"/> to be converted.</param>
+            <returns>A <see cref="T:Cuemon.Net.Http.HttpMethods"/> representation of the specified <paramref name="method"/>.</returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="method"/> cannot be null.
+            </exception>
+        </member>
+        <member name="T:Cuemon.Net.Http.HttpMethods">
+            <summary>
+            Defines the official HTTP data transfer method (such as GET, POST, or HEAD) used by the client to query a web server.
+            </summary>
+            <remarks>
+            These are the official HTTP methods as specified in RFC 2616, section 9 (except for the CONNECT method).<br/>
+            RFC 2616: http://www.w3.org/Protocols/rfc2616/rfc2616.html, RFC 2616 section 9: http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html#sec9.<br/>
+            Includes RFC 5789: https://tools.ietf.org/html/rfc5789 also; Patch, as some public APIs has started using this.
+            <br/><br/>
+            This enumeration has a <see cref="T:System.FlagsAttribute"/> that allows a bitwise combination of its member values.
+            </remarks>
+        </member>
+        <member name="F:Cuemon.Net.Http.HttpMethods.Options">
+            <summary>
+            Represents an HTTP OPTIONS protocol method.
+            </summary>
+        </member>
+        <member name="F:Cuemon.Net.Http.HttpMethods.Get">
+            <summary>
+            Represents an HTTP GET protocol method.
+            </summary>
+        </member>
+        <member name="F:Cuemon.Net.Http.HttpMethods.Head">
+            <summary>
+            Represents an HTTP HEAD protocol method. The HEAD method is identical to GET except that the server only returns message-headers in the response, without a message-body.
+            </summary>
+        </member>
+        <member name="F:Cuemon.Net.Http.HttpMethods.Post">
+            <summary>
+            Represents an HTTP POST protocol method that is used to post a new entity as an addition to a URI.
+            </summary>
+        </member>
+        <member name="F:Cuemon.Net.Http.HttpMethods.Put">
+            <summary>
+            Represents an HTTP PUT protocol method that is used to replace an entity identified by a URI.
+            </summary>
+        </member>
+        <member name="F:Cuemon.Net.Http.HttpMethods.Delete">
+            <summary>
+            Represents an HTTP DELETE protocol method.
+            </summary>
+        </member>
+        <member name="F:Cuemon.Net.Http.HttpMethods.Trace">
+            <summary>
+            Represents an HTTP TRACE protocol method.
+            </summary>
+        </member>
+        <member name="F:Cuemon.Net.Http.HttpMethods.Patch">
+            <summary>
+            Represents an HTTP PATCH protocol method.
+            </summary>
+        </member>
+        <member name="T:Cuemon.Net.Http.HttpRequestOptions">
+            <summary>
+            Specifies options that is related to <see cref="T:Cuemon.Net.Http.HttpManager"/> operations.
+            </summary>
+        </member>
+        <member name="M:Cuemon.Net.Http.HttpRequestOptions.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Cuemon.Net.Http.HttpRequestOptions"/> class.
+            </summary>
+        </member>
+        <member name="P:Cuemon.Net.Http.HttpRequestOptions.Request">
+            <summary>
+            Gets the HTTP request message to send.
+            </summary>
+            <value>The HTTP request message to send.</value>
+        </member>
+        <member name="P:Cuemon.Net.Http.HttpRequestOptions.CompletionOption">
+            <summary>
+            Gets the recommended completion option of a response.
+            </summary>
+            <value>The recommended completion option of a response.</value>
+        </member>
+        <member name="T:Cuemon.Net.Http.HttpWatcher">
+            <summary>
+            Provides a watcher implementation designed to monitor and signal changes applied to an URI resource by raising the <see cref="E:Cuemon.Runtime.Watcher.Changed"/> event.
+            </summary>
+            <seealso cref="T:Cuemon.Runtime.Watcher" />
+        </member>
+        <member name="M:Cuemon.Net.Http.HttpWatcher.#ctor(System.Uri,System.Action{Cuemon.Net.Http.HttpWatcherOptions})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Cuemon.Net.Http.HttpWatcher"/> class.
+            </summary>
+            <param name="location">The URI to monitor.</param>
+            <param name="setup">The <see cref="T:Cuemon.Net.Http.HttpWatcherOptions" /> which may be configured.</param>
+        </member>
+        <member name="P:Cuemon.Net.Http.HttpWatcher.Location">
+            <summary>
+            Gets the URI of the resource to watch.
+            </summary>
+            <value>The URI to monitor.</value>
+        </member>
+        <member name="P:Cuemon.Net.Http.HttpWatcher.ClientFactory">
+            <summary>
+            Gets the function delegate that will resolve an instance of <see cref="T:System.Net.Http.HttpClient"/>.
+            </summary>
+            <value>The function delegate that will resolve an instance of <see cref="T:System.Net.Http.HttpClient"/>.</value>
+        </member>
+        <member name="P:Cuemon.Net.Http.HttpWatcher.HashFactory">
+            <summary>
+            Gets the function delegate that will resolve an implementation of <see cref="T:Cuemon.Security.Hash"/>.
+            </summary>
+            <value>The function delegate that will resolve an implementation of <see cref="T:Cuemon.Security.Hash"/>.</value>
+        </member>
+        <member name="P:Cuemon.Net.Http.HttpWatcher.ReadResponseBody">
+            <summary>
+            Gets a value indicating whether to compute a hash from the response body.
+            </summary>
+            <value><c>true</c> to compute a hash from the response body; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Cuemon.Net.Http.HttpWatcher.Checksum">
+            <summary>
+            Gets the checksum that is associated with the URI specified in <see cref="P:Cuemon.Net.Http.HttpWatcher.Location"/>.
+            </summary>
+            <value>The checksum that is associated with the URI specified in <see cref="P:Cuemon.Net.Http.HttpWatcher.Location"/>.</value>
+            <remarks>If <see cref="P:Cuemon.Net.Http.HttpWatcher.ReadResponseBody"/> is <c>false</c> this property will remain <c>null</c>.</remarks>
+        </member>
+        <member name="M:Cuemon.Net.Http.HttpWatcher.HandleSignalingAsync">
+            <summary>
+            Handles the signaling of this <see cref="T:Cuemon.Net.Http.HttpWatcher"/>.
+            </summary>
+            <returns>The task object representing the asynchronous operation.</returns>
+        </member>
+        <member name="T:Cuemon.Net.Http.HttpWatcherOptions">
+            <summary>
+            Configuration options for <see cref="T:Cuemon.Net.Http.HttpWatcher"/>.
+            </summary>
+        </member>
+        <member name="M:Cuemon.Net.Http.HttpWatcherOptions.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Cuemon.Net.Http.HttpWatcherOptions"/> class.
+            </summary>
+            <remarks>
+            The following table shows the initial property values for an instance of <see cref="T:Cuemon.Net.Http.HttpWatcherOptions"/>.
+            <list type="table">
+                <listheader>
+                    <term>Property</term>
+                    <description>Initial Value</description>
+                </listheader>
+                <item>
+                    <term><see cref="P:Cuemon.Net.Http.HttpWatcherOptions.ClientFactory"/></term>
+                    <description><code>
+            () => new HttpClient(new HttpClientHandler()
+            {
+               AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate,
+               MaxAutomaticRedirections = 10
+             }, false)
+            </code></description>
+                </item>
+                <item>
+                    <term><see cref="P:Cuemon.Net.Http.HttpWatcherOptions.HashFactory"/></term>
+                    <description><c>() => new CyclicRedundancyCheck64()</c></description>
+                </item>
+                <item>
+                    <term><see cref="P:Cuemon.Net.Http.HttpWatcherOptions.ReadResponseBody"/></term>
+                    <description><c>false</c></description>
+                </item>
+            </list>
+            </remarks>
+        </member>
+        <member name="P:Cuemon.Net.Http.HttpWatcherOptions.ClientFactory">
+            <summary>
+            Gets or sets the function delegate that will resolve an instance of <see cref="T:System.Net.Http.HttpClient"/>.
+            </summary>
+            <value>The function delegate that will resolve an instance of <see cref="T:System.Net.Http.HttpClient"/>.</value>
+        </member>
+        <member name="P:Cuemon.Net.Http.HttpWatcherOptions.HashFactory">
+            <summary>
+            Gets or sets the function delegate that will resolve an implementation of <see cref="T:Cuemon.Security.Hash"/>.
+            </summary>
+            <value>The function delegate that will resolve an implementation of <see cref="T:Cuemon.Security.Hash"/>.</value>
+        </member>
+        <member name="P:Cuemon.Net.Http.HttpWatcherOptions.ReadResponseBody">
+            <summary>
+            Gets or sets a value indicating whether to compute a hash from the response data of the <see cref="T:Cuemon.Net.Http.HttpWatcher"/>.
+            </summary>
+            <value><c>true</c> to compute a hash from the response data of the <see cref="T:Cuemon.Net.Http.HttpWatcher"/>; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="M:Cuemon.Net.Http.HttpWatcherOptions.ValidateOptions">
+            <summary>
+            Determines whether the public read-write properties of this instance are in a valid state.
+            </summary>
+            <exception cref="T:System.InvalidOperationException">
+            <see cref="P:Cuemon.Net.Http.HttpWatcherOptions.ClientFactory"/> cannot be null - or -
+            <see cref="P:Cuemon.Net.Http.HttpWatcherOptions.HashFactory"/> cannot be null.
+            </exception>
+            <remarks>This method is expected to throw exceptions when one or more conditions fails to be in a valid state.</remarks>
+        </member>
+        <member name="T:Cuemon.Net.Mail.MailDistributor">
+            <summary>
+            Provides a way for applications to distribute one or more e-mails in batches by using the Simple Mail Transfer Protocol (SMTP).
+            </summary>
+        </member>
+        <member name="M:Cuemon.Net.Mail.MailDistributor.#ctor(System.Func{System.Net.Mail.SmtpClient},System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Cuemon.Net.Mail.MailDistributor" /> class.
+            </summary>
+            <param name="carrier">The function delegate that will instantiate a new mail carrier per delivery.</param>
+            <param name="deliverySize">The maximum number of mails a <paramref name="carrier"/> can deliver at a time. Default is a size of 20.</param>
+            <remarks>
+            A delivery is determined by the <paramref name="deliverySize"/>. This means, that if you are to send 100 e-mails and you have a <paramref name="deliverySize"/> of 20, 
+            these 100 e-mails will be distributed to 5 invoked instances of <paramref name="carrier"/> shipping up till 20 e-mails each (depending if you have a filter or not).
+            </remarks>
+        </member>
+        <member name="M:Cuemon.Net.Mail.MailDistributor.SendOneAsync(System.Net.Mail.MailMessage,System.Func{System.Net.Mail.MailMessage,System.Boolean})">
+            <summary>
+            Sends the specified <paramref name="mail"/> to an SMTP server.
+            </summary>
+            <param name="mail">The e-mail to send to an SMTP server.</param>
+            <param name="filter">The function delegate that defines the conditions for the sending of <paramref name="mail"/>.</param>
+            <remarks>The function delegate <paramref name="filter"/> will only include the <paramref name="mail"/> if that evaluates to <c>true</c>.</remarks>
+        </member>
+        <member name="M:Cuemon.Net.Mail.MailDistributor.SendAsync(System.Collections.Generic.IEnumerable{System.Net.Mail.MailMessage},System.Func{System.Net.Mail.MailMessage,System.Boolean})">
+            <summary>
+            Sends the specified sequence of <paramref name="mails"/> to an SMTP server.
+            </summary>
+            <param name="mails">The e-mails to send to an SMTP server.</param>
+            <param name="filter">The function delegate that defines the conditions for sending of the <paramref name="mails"/> sequence.</param>
+            <remarks>The function delegate <paramref name="filter"/> will only include those <paramref name="mails"/> that evaluates to <c>true</c>.</remarks>
+        </member>
+        <member name="T:Cuemon.Net.QueryStringCollection">
+            <summary>
+            Provides a collection of string values that is equivalent to a query string of an <see cref="T:System.Uri"/>.
+            Implements the <see cref="T:System.Collections.Specialized.NameValueCollection" />
+            </summary>
+            <seealso cref="T:System.Collections.Specialized.NameValueCollection" />
+        </member>
+        <member name="M:Cuemon.Net.QueryStringCollection.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Cuemon.Net.QueryStringCollection"/> class.
+            </summary>
+        </member>
+        <member name="M:Cuemon.Net.QueryStringCollection.#ctor(Cuemon.Net.QueryStringCollection)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Cuemon.Net.QueryStringCollection"/> class.
+            </summary>
+            <param name="qsc">The <see cref="T:Cuemon.Net.QueryStringCollection"/> to copy to the new <see cref="T:Cuemon.Net.QueryStringCollection"/> instance.</param>
+        </member>
+        <member name="M:Cuemon.Net.QueryStringCollection.#ctor(System.String,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Cuemon.Net.QueryStringCollection"/> class.
+            </summary>
+            <param name="query">The query string of an <see cref="T:System.Uri"/>.</param>
+            <param name="urlDecode">Specify <c>true</c> to decode the <paramref name="query"/> that has been encoded for transmission in a URL; otherwise, <c>false</c>.</param>
+        </member>
+        <member name="M:Cuemon.Net.QueryStringCollection.ToString">
+            <summary>
+            Returns a <see cref="T:System.String" /> that represents this instance.
+            </summary>
+            <returns>A <see cref="T:System.String" /> that represents this instance.</returns>
+        </member>
+    </members>
+</doc>

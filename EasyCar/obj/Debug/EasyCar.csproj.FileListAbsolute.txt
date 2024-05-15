@@ -1,0 +1,493 @@
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\EasyCar.exe.config
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\EasyCar.exe
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\EasyCar.pdb
+D:\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.AssemblyReference.cache
+D:\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.SuggestedBindingRedirects.cache
+D:\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.Properties.Resources.resources
+D:\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.GenerateResource.cache
+D:\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.CoreCompileInputs.cache
+D:\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.exe
+D:\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.pdb
+D:\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.General.resources
+D:\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.Contacs.resources
+D:\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.About.resources
+D:\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.Auth.resources
+D:\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.Catalog.resources
+D:\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.Reg.resources
+D:\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.AssemblyReference.cache
+D:\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.SuggestedBindingRedirects.cache
+D:\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.About.resources
+D:\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.Auth.resources
+D:\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.Catalog.resources
+D:\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.Reg.resources
+D:\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.General.resources
+D:\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.Contacs.resources
+D:\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.Properties.Resources.resources
+D:\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.GenerateResource.cache
+D:\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.CoreCompileInputs.cache
+D:\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.exe
+D:\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.pdb
+D:\gitvs\EasyCar\EasyCar\bin\Debug\EasyCar.exe.config
+D:\gitvs\EasyCar\EasyCar\bin\Debug\EasyCar.exe
+D:\gitvs\EasyCar\EasyCar\bin\Debug\EasyCar.pdb
+D:\gitvs\EasyCar\EasyCar\bin\Debug\EntityFramework.dll
+D:\gitvs\EasyCar\EasyCar\bin\Debug\EntityFramework.SqlServer.dll
+D:\gitvs\EasyCar\EasyCar\bin\Debug\Microsoft.Data.Sqlite.dll
+D:\gitvs\EasyCar\EasyCar\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+D:\gitvs\EasyCar\EasyCar\bin\Debug\SQLitePCLRaw.core.dll
+D:\gitvs\EasyCar\EasyCar\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\gitvs\EasyCar\EasyCar\bin\Debug\System.Buffers.dll
+D:\gitvs\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.dll
+D:\gitvs\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.EF6.dll
+D:\gitvs\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.Linq.dll
+D:\gitvs\EasyCar\EasyCar\bin\Debug\System.Memory.dll
+D:\gitvs\EasyCar\EasyCar\bin\Debug\System.Numerics.Vectors.dll
+D:\gitvs\EasyCar\EasyCar\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\gitvs\EasyCar\EasyCar\bin\Debug\EntityFramework.xml
+D:\gitvs\EasyCar\EasyCar\bin\Debug\EntityFramework.SqlServer.xml
+D:\gitvs\EasyCar\EasyCar\bin\Debug\Microsoft.Data.Sqlite.xml
+D:\gitvs\EasyCar\EasyCar\bin\Debug\System.Buffers.xml
+D:\gitvs\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.xml
+D:\gitvs\EasyCar\EasyCar\bin\Debug\System.Memory.xml
+D:\gitvs\EasyCar\EasyCar\bin\Debug\System.Numerics.Vectors.xml
+D:\gitvs\EasyCar\EasyCar\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.CopyComplete
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\EasyCar.exe.config
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\EasyCar.exe
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\EasyCar.pdb
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\EntityFramework.dll
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\MySql.Data.dll
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\System.Buffers.dll
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.dll
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\System.Memory.dll
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\Google.Protobuf.dll
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\Zstandard.Net.dll
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\EntityFramework.xml
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\Microsoft.Data.Sqlite.xml
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\MySql.Data.xml
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\System.Buffers.xml
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.xml
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\System.Memory.xml
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.AssemblyReference.cache
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.SuggestedBindingRedirects.cache
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.About.resources
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.Auth.resources
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.Catalog.resources
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.Reg.resources
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.General.resources
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.Contacs.resources
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.Properties.Resources.resources
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.GenerateResource.cache
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.CopyComplete
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.exe
+C:\Users\student\Documents\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.pdb
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\EasyCar.exe.config
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\EasyCar.exe
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\EasyCar.pdb
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\EntityFramework.dll
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\EntityFramework.SqlServer.dll
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\Microsoft.Data.Sqlite.dll
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\SQLitePCLRaw.core.dll
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\System.Buffers.dll
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.dll
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.EF6.dll
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.Linq.dll
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\System.Memory.dll
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\System.Numerics.Vectors.dll
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\EntityFramework.xml
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\EntityFramework.SqlServer.xml
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\Microsoft.Data.Sqlite.xml
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\System.Buffers.xml
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.xml
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\System.Memory.xml
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\System.Numerics.Vectors.xml
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\programic\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.AssemblyReference.cache
+D:\programic\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.SuggestedBindingRedirects.cache
+D:\programic\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.About.resources
+D:\programic\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.Auth.resources
+D:\programic\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.Catalog.resources
+D:\programic\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.Reg.resources
+D:\programic\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.General.resources
+D:\programic\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.Contacs.resources
+D:\programic\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.Properties.Resources.resources
+D:\programic\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.GenerateResource.cache
+D:\programic\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.CoreCompileInputs.cache
+D:\programic\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.CopyComplete
+D:\programic\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.exe
+D:\programic\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.pdb
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\Cuemon.Core.dll
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\Cuemon.IO.dll
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\Cuemon.Net.dll
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\Cuemon.Threading.dll
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\Cuemon.Core.xml
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\Cuemon.IO.xml
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\Cuemon.Net.xml
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\Cuemon.Threading.xml
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\Cuemon.Core.dll
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\Cuemon.IO.dll
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\Cuemon.Net.dll
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\Cuemon.Threading.dll
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\EntityFramework.dll
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\EntityFramework.SqlServer.dll
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\Microsoft.Data.Sqlite.dll
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\Newtonsoft.Json.dll
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\SQLitePCLRaw.core.dll
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\System.Buffers.dll
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.dll
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\System.Memory.dll
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\System.Numerics.Vectors.dll
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\Telegram.Bot.dll
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\Cuemon.Core.xml
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\Cuemon.IO.xml
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\Cuemon.Net.xml
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\Cuemon.Threading.xml
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\EntityFramework.xml
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\EntityFramework.SqlServer.xml
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\Microsoft.Data.Sqlite.xml
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\Newtonsoft.Json.xml
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\System.Buffers.xml
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.xml
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\System.Memory.xml
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\System.Numerics.Vectors.xml
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\Telegram.Bot.pdb
+D:\Шикалов\EasyCar\EasyCar\bin\Debug\Telegram.Bot.xml
+D:\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.CopyComplete
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\EasyCar.exe.config
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\EasyCar.exe
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\EasyCar.pdb
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\Cuemon.Core.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\Cuemon.IO.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\Cuemon.Net.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\Cuemon.Threading.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\EntityFramework.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\System.Buffers.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\System.Memory.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\Telegram.Bot.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\Google.Protobuf.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\Zstandard.Net.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\Cuemon.Core.xml
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\Cuemon.IO.xml
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\Cuemon.Net.xml
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\Cuemon.Threading.xml
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\EntityFramework.xml
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\Microsoft.Data.Sqlite.xml
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\MySql.Data.xml
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\System.Buffers.xml
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.xml
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\System.Memory.xml
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\Telegram.Bot.pdb
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\bin\Debug\Telegram.Bot.xml
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.AssemblyReference.cache
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.SuggestedBindingRedirects.cache
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\obj\Debug\EasyCar.About.resources
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\obj\Debug\EasyCar.Auth.resources
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\obj\Debug\EasyCar.Catalog.resources
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\obj\Debug\EasyCar.Reg.resources
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\obj\Debug\EasyCar.General.resources
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\obj\Debug\EasyCar.Contacs.resources
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\obj\Debug\EasyCar.Properties.Resources.resources
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.GenerateResource.cache
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.CoreCompileInputs.cache
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.CopyComplete
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\obj\Debug\EasyCar.exe
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\obj\Debug\EasyCar.pdb
+C:\Users\Student\Source\Repos\easycar\EasyCar\EasyCar\obj\Debug\EasyCar.GeneralAdmin.resources
+D:\programic\EasyCar\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.AssemblyReference.cache
+D:\programic\EasyCar\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.SuggestedBindingRedirects.cache
+D:\programic\EasyCar\EasyCar\EasyCar\obj\Debug\EasyCar.About.resources
+D:\programic\EasyCar\EasyCar\EasyCar\obj\Debug\EasyCar.Auth.resources
+D:\programic\EasyCar\EasyCar\EasyCar\obj\Debug\EasyCar.Catalog.resources
+D:\programic\EasyCar\EasyCar\EasyCar\obj\Debug\EasyCar.GeneralAdmin.resources
+D:\programic\EasyCar\EasyCar\EasyCar\obj\Debug\EasyCar.Reg.resources
+D:\programic\EasyCar\EasyCar\EasyCar\obj\Debug\EasyCar.General.resources
+D:\programic\EasyCar\EasyCar\EasyCar\obj\Debug\EasyCar.Contacs.resources
+D:\programic\EasyCar\EasyCar\EasyCar\obj\Debug\EasyCar.Properties.Resources.resources
+D:\programic\EasyCar\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.GenerateResource.cache
+D:\programic\EasyCar\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.CoreCompileInputs.cache
+D:\programic\EasyCar\EasyCar\EasyCar\obj\Debug\EasyCar.exe
+D:\programic\EasyCar\EasyCar\EasyCar\obj\Debug\EasyCar.pdb
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\EasyCar.exe.config
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\EasyCar.exe
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\EasyCar.pdb
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\Cuemon.Core.dll
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\Cuemon.IO.dll
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\Cuemon.Net.dll
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\Cuemon.Threading.dll
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\EntityFramework.dll
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\EntityFramework.SqlServer.dll
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\Microsoft.Data.Sqlite.dll
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\Newtonsoft.Json.dll
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\SQLitePCLRaw.core.dll
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\System.Buffers.dll
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\System.ComponentModel.Annotations.dll
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.dll
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.EF6.dll
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.Linq.dll
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\System.Memory.dll
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\System.Numerics.Vectors.dll
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\Telegram.Bot.dll
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\Cuemon.Core.xml
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\Cuemon.IO.xml
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\Cuemon.Net.xml
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\Cuemon.Threading.xml
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\EntityFramework.xml
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\EntityFramework.SqlServer.xml
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\Microsoft.Data.Sqlite.xml
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\Newtonsoft.Json.xml
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\System.Buffers.xml
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.xml
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\System.Memory.xml
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\System.Numerics.Vectors.xml
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\Telegram.Bot.pdb
+D:\programic\EasyCar\EasyCar\EasyCar\bin\Debug\Telegram.Bot.xml
+D:\programic\EasyCar\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.CopyComplete
+D:\programic\EasyCar\EasyCar\EasyCar\obj\Debug\EasyCar.Cars.resources
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\Newtonsoft.Json.dll
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\System.ComponentModel.Annotations.dll
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\Telegram.Bot.dll
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\Newtonsoft.Json.xml
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\Telegram.Bot.pdb
+D:\programic\gitvs\EasyCar\EasyCar\bin\Debug\Telegram.Bot.xml
+D:\programic\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.Cars.resources
+D:\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.Cars.resources
+D:\Шикалов\EasyCar\EasyCar\obj\Debug\EasyCar.GeneralAdmin.resources
+D:\programic\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.AdminUsers.resources
+D:\programic\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.AdminCatalog.resources
+D:\programic\gitvs\EasyCar\EasyCar\obj\Debug\EasyCar.Purchase.resources
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\EasyCar.exe.config
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\EasyCar.exe
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\EasyCar.pdb
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\Cuemon.Core.dll
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\Cuemon.IO.dll
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\Cuemon.Net.dll
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\Cuemon.Threading.dll
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\EntityFramework.dll
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\EntityFramework.SqlServer.dll
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\Microsoft.Data.Sqlite.dll
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\Newtonsoft.Json.dll
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\SQLitePCLRaw.core.dll
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\System.Buffers.dll
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\System.ComponentModel.Annotations.dll
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.dll
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.EF6.dll
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.Linq.dll
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\System.Memory.dll
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\System.Numerics.Vectors.dll
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\Telegram.Bot.dll
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\Cuemon.Core.xml
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\Cuemon.IO.xml
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\Cuemon.Net.xml
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\Cuemon.Threading.xml
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\EntityFramework.xml
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\EntityFramework.SqlServer.xml
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\Microsoft.Data.Sqlite.xml
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\Newtonsoft.Json.xml
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\System.Buffers.xml
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.xml
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\System.Memory.xml
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\System.Numerics.Vectors.xml
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\Telegram.Bot.pdb
+D:\easycar-main\EasyCar\EasyCar\bin\Debug\Telegram.Bot.xml
+D:\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.AssemblyReference.cache
+D:\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.About.resources
+D:\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.AdminCatalog.resources
+D:\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.Auth.resources
+D:\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.Cars.resources
+D:\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.Catalog.resources
+D:\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.AdminUsers.resources
+D:\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.Purchase.resources
+D:\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.Reg.resources
+D:\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.General.resources
+D:\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.Contacs.resources
+D:\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.Properties.Resources.resources
+D:\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.GenerateResource.cache
+D:\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.CoreCompileInputs.cache
+D:\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.CopyComplete
+D:\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.exe
+D:\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.pdb
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\EasyCar.exe.config
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\EasyCar.exe
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\EasyCar.pdb
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Cuemon.Core.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Cuemon.IO.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Cuemon.Net.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Cuemon.Threading.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\EntityFramework.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\EntityFramework.SqlServer.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Microsoft.Data.Sqlite.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Newtonsoft.Json.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\SQLitePCLRaw.core.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Buffers.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.ComponentModel.Annotations.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.EF6.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.Linq.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Memory.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Numerics.Vectors.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Threading.Tasks.Extensions.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Telegram.Bot.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Cuemon.Core.xml
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Cuemon.IO.xml
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Cuemon.Net.xml
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Cuemon.Threading.xml
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\EntityFramework.xml
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\EntityFramework.SqlServer.xml
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Microsoft.Data.Sqlite.xml
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Newtonsoft.Json.xml
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Buffers.xml
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.xml
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Memory.xml
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Numerics.Vectors.xml
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Threading.Tasks.Extensions.xml
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Telegram.Bot.pdb
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Telegram.Bot.xml
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.AssemblyReference.cache
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.SuggestedBindingRedirects.cache
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.About.resources
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.AdminCatalog.resources
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.Auth.resources
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.Cars.resources
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.Catalog.resources
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.AdminUsers.resources
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.Purchase.resources
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.Reg.resources
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.General.resources
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.Contacs.resources
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.Properties.Resources.resources
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.GenerateResource.cache
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.CoreCompileInputs.cache
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.CopyComplete
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.exe
+\\192.168.3.250\Veda\3 курс\ИСП 33-9\МДК 06.02\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.pdb
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\EasyCar.exe.config
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\EasyCar.exe
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\EasyCar.pdb
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Cuemon.Core.dll
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Cuemon.IO.dll
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Cuemon.Net.dll
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Cuemon.Threading.dll
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\EntityFramework.dll
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\EntityFramework.SqlServer.dll
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Microsoft.Data.Sqlite.dll
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Newtonsoft.Json.dll
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\SQLitePCLRaw.core.dll
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Buffers.dll
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.dll
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Memory.dll
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Numerics.Vectors.dll
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Telegram.Bot.dll
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Cuemon.Core.xml
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Cuemon.IO.xml
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Cuemon.Net.xml
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Cuemon.Threading.xml
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\EntityFramework.xml
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\EntityFramework.SqlServer.xml
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Microsoft.Data.Sqlite.xml
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Newtonsoft.Json.xml
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Buffers.xml
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Data.SQLite.xml
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Memory.xml
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Numerics.Vectors.xml
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Telegram.Bot.pdb
+D:\Шикалов\easycar-main\EasyCar\EasyCar\bin\Debug\Telegram.Bot.xml
+D:\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.AssemblyReference.cache
+D:\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.SuggestedBindingRedirects.cache
+D:\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.About.resources
+D:\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.AdminCatalog.resources
+D:\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.Auth.resources
+D:\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.Cars.resources
+D:\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.Catalog.resources
+D:\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.AdminUsers.resources
+D:\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.mdk.resources
+D:\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.Purchase.resources
+D:\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.Reg.resources
+D:\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.General.resources
+D:\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.Contacs.resources
+D:\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.Properties.Resources.resources
+D:\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.GenerateResource.cache
+D:\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.CoreCompileInputs.cache
+D:\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.csproj.CopyComplete
+D:\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.exe
+D:\Шикалов\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.pdb
+D:\easycar-main\EasyCar\EasyCar\obj\Debug\EasyCar.mdk.resources
