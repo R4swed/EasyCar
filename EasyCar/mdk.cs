@@ -194,25 +194,23 @@ namespace EasyCar
 
         private void Backup_Click(object sender, EventArgs e)
         {
-            string sourceDatabasePath = "D:\\easycar-main\\EasyCar\\EasyCar\\bin\\Debug\\DB\\DB.db";
-            string destinationDatabasePath = "D:\\db\\ReservDB.db";
-
-            CreateDatabaseBackup(sourceDatabasePath, destinationDatabasePath);
-
-            MessageBox.Show("Бэкап сделан", "Резервное копирование", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        }
-
-        private void CreateDatabaseBackup(string sourceDatabasePath, string destinationDatabasePath)
-        {
             db = new DB();
             db.getConnection();
 
-            using (var connection = new SQLiteConnection(db.connection))
-            using (var connection2 = new SQLiteConnection("Data Source="))
+            using (SQLiteConnection connection = new SQLiteConnection(db.connection))
             {
                 connection.Open();
 
+                string backupPath = @"D:\ycheba\SaveDataBase\backup.db";
+                string commandText = $"VACUUM main INTO '{backupPath}'";
+
+                using (SQLiteCommand command = new SQLiteCommand(commandText, connection))
+                {
+                    command.ExecuteNonQuery();
+                }
             }
+
+            MessageBox.Show("Бэкап сделан", "Резервное копирование", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
