@@ -36,6 +36,10 @@
             this.AutoTestShowCar = new System.Windows.Forms.Button();
             this.AutoTestDeleteCar = new System.Windows.Forms.Button();
             this.Backup = new System.Windows.Forms.Button();
+            this.UpdateBtn = new System.Windows.Forms.Button();
+            this.ErrorsBtn = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.CarView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -72,7 +76,7 @@
             // 
             this.AutoTestDeleteUser.Location = new System.Drawing.Point(12, 139);
             this.AutoTestDeleteUser.Name = "AutoTestDeleteUser";
-            this.AutoTestDeleteUser.Size = new System.Drawing.Size(147, 54);
+            this.AutoTestDeleteUser.Size = new System.Drawing.Size(147, 50);
             this.AutoTestDeleteUser.TabIndex = 3;
             this.AutoTestDeleteUser.Text = "Автотест\r\nУдаление клиента\r\n";
             this.AutoTestDeleteUser.UseVisualStyleBackColor = true;
@@ -81,7 +85,7 @@
             // CarView
             // 
             this.CarView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.CarView.Location = new System.Drawing.Point(30, 239);
+            this.CarView.Location = new System.Drawing.Point(12, 222);
             this.CarView.Name = "CarView";
             this.CarView.Size = new System.Drawing.Size(318, 159);
             this.CarView.TabIndex = 4;
@@ -108,19 +112,45 @@
             // 
             // Backup
             // 
-            this.Backup.Location = new System.Drawing.Point(165, 139);
+            this.Backup.Location = new System.Drawing.Point(166, 139);
             this.Backup.Name = "Backup";
-            this.Backup.Size = new System.Drawing.Size(147, 54);
+            this.Backup.Size = new System.Drawing.Size(147, 50);
             this.Backup.TabIndex = 7;
             this.Backup.Text = "Резевное копирование БД";
             this.Backup.UseVisualStyleBackColor = true;
             this.Backup.Click += new System.EventHandler(this.Backup_Click);
+            // 
+            // UpdateBtn
+            // 
+            this.UpdateBtn.Location = new System.Drawing.Point(319, 26);
+            this.UpdateBtn.Name = "UpdateBtn";
+            this.UpdateBtn.Size = new System.Drawing.Size(147, 50);
+            this.UpdateBtn.TabIndex = 8;
+            this.UpdateBtn.Text = "Обновление";
+            this.UpdateBtn.UseVisualStyleBackColor = true;
+            this.UpdateBtn.Click += new System.EventHandler(this.UpdateBtn_Click);
+            // 
+            // ErrorsBtn
+            // 
+            this.ErrorsBtn.Location = new System.Drawing.Point(319, 83);
+            this.ErrorsBtn.Name = "ErrorsBtn";
+            this.ErrorsBtn.Size = new System.Drawing.Size(147, 50);
+            this.ErrorsBtn.TabIndex = 9;
+            this.ErrorsBtn.Text = "Сбор ошибок";
+            this.ErrorsBtn.UseVisualStyleBackColor = true;
+            this.ErrorsBtn.Click += new System.EventHandler(this.ErrorsBtn_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
             // 
             // mdk
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(905, 522);
+            this.Controls.Add(this.ErrorsBtn);
+            this.Controls.Add(this.UpdateBtn);
             this.Controls.Add(this.Backup);
             this.Controls.Add(this.AutoTestDeleteCar);
             this.Controls.Add(this.AutoTestShowCar);
@@ -147,5 +177,9 @@
         private System.Windows.Forms.Button AutoTestShowCar;
         private System.Windows.Forms.Button AutoTestDeleteCar;
         private System.Windows.Forms.Button Backup;
+        private System.Windows.Forms.Button UpdateBtn;
+        private System.Windows.Forms.Button ErrorsBtn;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
     }
 }

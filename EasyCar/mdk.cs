@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows.Forms;
 using System.Data.SQLite;
-using System.Threading;
+using System.IO;
 
 namespace EasyCar
 {
@@ -194,23 +194,37 @@ namespace EasyCar
 
         private void Backup_Click(object sender, EventArgs e)
         {
-            db = new DB();
-            db.getConnection();
-
-            using (SQLiteConnection connection = new SQLiteConnection(db.connection))
+            try
             {
-                connection.Open();
+                SaveFileDialog saveFileDialog1 = new SaveFileDialog();
+                saveFileDialog1.ShowDialog();
 
-                string backupPath = @"D:\ycheba\SaveDataBase\backup.db";
-                string commandText = $"VACUUM main INTO '{backupPath}'";
-
-                using (SQLiteCommand command = new SQLiteCommand(commandText, connection))
+                if (saveFileDialog1.FileName != "")
                 {
-                    command.ExecuteNonQuery();
+                    BackupDatabase(saveFileDialog1.FileName);
+                    MessageBox.Show("Резервное копирование выполнено успешно.");
                 }
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Резервное копирование не удалось: {ex.Message}");
+            }
 
-            MessageBox.Show("Бэкап сделан", "Резервное копирование", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+        private void BackupDatabase(string backupPath)
+        {
+            string sourceDatabasePath = "DB\\DB.db";
+            File.Copy(sourceDatabasePath, backupPath, true);
+        }
+
+        private void UpdateBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ErrorsBtn_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
