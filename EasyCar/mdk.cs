@@ -3,6 +3,8 @@ using System.Data;
 using System.Windows.Forms;
 using System.Data.SQLite;
 using System.IO;
+using System.Linq;
+using System.Collections.Generic;
 
 namespace EasyCar
 {
@@ -14,183 +16,6 @@ namespace EasyCar
         }
 
         DB db;
-
-        private void AutoTestAddClient_Click(object sender, EventArgs e)
-        {
-            db = new DB();
-            db.getConnection();
-
-            string emailuser = "aboba";
-            string phoneuser = "124215";
-            string passworduser = "532355353";
-            string roleuser = "admin";
-
-            using (SQLiteConnection connection = new SQLiteConnection(db.connection))
-            {
-                connection.Open();
-                SQLiteCommand command = new SQLiteCommand();
-                
-                string query = @"INSERT INTO users(email, password, phone, role) 
-                                    VALUES(@email, @password, @phone, @Role)";
-                command.CommandText = query;
-                command.Connection = connection;
-                command.Parameters.Add(new SQLiteParameter("@email", emailuser));
-                command.Parameters.Add(new SQLiteParameter("@password", passworduser));
-                command.Parameters.Add(new SQLiteParameter("@phone", phoneuser));
-                command.Parameters.Add(new SQLiteParameter("@Role", roleuser));
-                command.ExecuteNonQuery();
-
-                MessageBox.Show("Пользователь добавлен", "Добавление пользователя", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-            }
-        }
-
-        private void AutoTestShowClient_Click(object sender, EventArgs e)
-        {
-            db = new DB();
-            db.getConnection();
-
-            string emailuser = "admin";
-            string passworduser = "admin";
-
-            using (SQLiteConnection connection = new SQLiteConnection(db.connection))
-            {
-                connection.Open();
-                SQLiteCommand command = new SQLiteCommand();
-
-                string query = @"SELECT * FROM users WHERE email = @email and password = @password";
-                command.CommandText = query;
-                command.Connection = connection;
-                command.Parameters.Add(new SQLiteParameter("@email", emailuser));
-                command.Parameters.Add(new SQLiteParameter("@password", passworduser));
-                SQLiteDataReader reader = command.ExecuteReader();
-                if (reader.Read())
-                {
-                    label1.Text = string.Format("id:{0}, email:{1}, phone:{2}, password:{3}, role:{4}", reader["id"], reader["email"], reader["phone"], reader["password"], reader["role"]);
-                }
-            }
-        }
-
-        private void AutoTestDeleteUser_Click(object sender, EventArgs e)
-        { 
-            // Подключение к БД
-            db = new DB();
-            db.getConnection();
-
-            string emailuser = "aboba";
-
-            try
-            {
-                using (SQLiteConnection connection = new SQLiteConnection(db.connection))
-                {
-                    SQLiteCommand command = connection.CreateCommand();
-                    connection.Open();
-
-                    int count = 0;
-                    // Команда для БД
-                    string query = @"DELETE FROM users WHERE email =
-                                        '" + emailuser + "'";
-                    command.CommandText = query;
-                    command.Connection = connection;
-
-                    SQLiteDataReader reader = command.ExecuteReader();
-                    while (reader.Read())
-                    {
-                        count--;
-                    }
-                    if (count == 0)
-                    {
-                        MessageBox.Show("Пользовтаель удалён", "Удаление пользователя", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
-                    else
-                        MessageBox.Show("Не удалось удалить пользователя", "Удаление пользователя", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
-            catch
-            {
-                MessageBox.Show("Произошла неизветсная ошибка");
-            }
-        }
-
-        private void AutoTestShowCar_Click(object sender, EventArgs e)
-        {
-            // Подключение к БД
-            db = new DB();
-            db.getConnection();
-
-            SQLiteConnection connection = new SQLiteConnection(db.connection);
-
-            // Команда для БД
-            string query = @"SELECT name, price, year, vehicle, image FROM cars WHERE name = 'Nissan Skyline R34' ";
-
-            SQLiteCommand command = new SQLiteCommand(query, connection);
-            SQLiteDataAdapter adapter = new SQLiteDataAdapter(command);
-
-            DataTable datatable = new DataTable();
-
-            adapter.Fill(datatable);
-
-            CarView.DataSource = datatable;
-
-
-            // Настройка "внешнего вида" datagridview
-            CarView.Columns["name"].HeaderText = "Название";
-            CarView.Columns["price"].HeaderText = "Цена";
-            CarView.Columns["year"].HeaderText = "Год выпуска";
-            CarView.Columns["vehicle"].HeaderText = "Пробег";
-            CarView.Columns["image"].HeaderText = "Фото";
-            CarView.Columns["image"].Width = 225;
-
-            CarView.AllowUserToAddRows = false;
-            CarView.RowHeadersVisible = false;
-            CarView.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            CarView.MultiSelect = false;
-            CarView.DefaultCellStyle.WrapMode = DataGridViewTriState.True;
-            CarView.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
-            CarView.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-        }
-
-        private void AutoTestDeleteCar_Click(object sender, EventArgs e)
-        {
-            // Подключение к БД
-            db = new DB();
-            db.getConnection();
-
-            string Name = "abobacar";
-
-            try
-            {
-                using (SQLiteConnection connection = new SQLiteConnection(db.connection))
-                {
-                    SQLiteCommand command = connection.CreateCommand();
-                    connection.Open();
-
-                    int count = 0;
-
-                    // Команда для БД
-                    string query = @"DELETE FROM cars WHERE name =
-                            '" + Name + "' ";
-                    command.CommandText = query;
-                    command.Connection = connection;
-
-                    SQLiteDataReader reader = command.ExecuteReader();
-                    while (reader.Read())
-                    {
-                        count--;
-                    }
-                    if (count == 0)
-                    {
-                        MessageBox.Show("Автомобиль удалён", "Удаление автомобиля", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
-                    else
-                        MessageBox.Show("Не удалось удалить автомобиль", "Удаление автомобиля", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
-            catch
-            {
-                MessageBox.Show("Произошла неизвестная ошибка");
-            }
-        }
 
         private void Backup_Click(object sender, EventArgs e)
         {
@@ -217,14 +42,55 @@ namespace EasyCar
             File.Copy(sourceDatabasePath, backupPath, true);
         }
 
-        private void UpdateBtn_Click(object sender, EventArgs e)
+        private void AutoTestBtn_Click(object sender, EventArgs e)
         {
+            db = new DB();
+            db.getConnection();
 
-        }
+            using (SQLiteConnection connection = new SQLiteConnection(db.connection))
+            {
+                connection.Open();
+                DataTable tables = connection.GetSchema("Tables");
+                Random random = new Random();
 
-        private void ErrorsBtn_Click(object sender, EventArgs e)
-        {
+                // Выбираем случайные две таблицы из базы данных
+                var randomTables = tables.AsEnumerable()
+                                       .Select(r => r["TABLE_NAME"].ToString())
+                                       .OrderBy(x => random.Next())
+                                       .Take(2)
+                                       .ToList();
 
+                List<string> columns = new List<string>();
+
+                foreach (var tableName in randomTables)
+                {
+                    DataTable tableColumns = connection.GetSchema("Columns", new string[] { null, null, tableName, null });
+
+                    // Фильтруем метаданные и выбираем только реальные столбцы таблицы
+                    var columnNames = tableColumns.AsEnumerable()
+                                                 .Where(r => !r["COLUMN_NAME"].ToString().Equals("name", StringComparison.OrdinalIgnoreCase) &&
+                                                             !r["COLUMN_NAME"].ToString().Equals("seq", StringComparison.OrdinalIgnoreCase) &&
+                                                             !r["COLUMN_NAME"].ToString().Equals("id", StringComparison.OrdinalIgnoreCase)) // исключаем столбец id
+                                                 .Select(r => r["COLUMN_NAME"].ToString())
+                                                 .ToList();
+
+                    // Выбираем ровно 5 случайных столбцов для каждой таблицы
+                    var randomColumns = columnNames.OrderBy(x => random.Next()).Take(5);
+
+                    columns.AddRange(randomColumns);
+                }
+
+                // Создаем запрос для выборки случайных столбцов из случайных таблиц
+                string query = $"SELECT {string.Join(", ", columns)} FROM {string.Join(", ", randomTables)} LIMIT 10";
+
+                using (SQLiteDataAdapter adapter = new SQLiteDataAdapter(query, connection))
+                {
+                    DataTable dataTable = new DataTable();
+                    adapter.Fill(dataTable);
+                    CarView.DataSource = dataTable;
+                }
+            }
         }
     }
 }
+
