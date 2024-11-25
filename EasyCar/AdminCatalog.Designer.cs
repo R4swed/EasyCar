@@ -55,6 +55,7 @@
             this.DeleteYearBox = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.DeleteVehicleBox = new System.Windows.Forms.TextBox();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CarsCatalog)).BeginInit();
             this.SuspendLayout();
@@ -379,5 +380,6 @@
         private System.Windows.Forms.TextBox DeleteYearBox;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox DeleteVehicleBox;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }

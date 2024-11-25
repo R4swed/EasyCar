@@ -2,6 +2,8 @@
 using System.Data;
 using System.Windows.Forms;
 using System.Data.SQLite;
+using System.IO;
+using System.Drawing;
 
 namespace EasyCar
 {
@@ -120,82 +122,134 @@ namespace EasyCar
             string AddYear = AddYearBox.Text;
             string AddVehicle = AddVehicleBox.Text;
 
-            if (AddName != string.Empty
-                && AddPrice != string.Empty
-                && AddYear != string.Empty
-                && AddVehicle != string.Empty)
+            if (!string.IsNullOrWhiteSpace(AddName) &&
+                !string.IsNullOrWhiteSpace(AddPrice) &&
+                !string.IsNullOrWhiteSpace(AddYear) &&
+                !string.IsNullOrWhiteSpace(AddVehicle))
             {
-                AddCar(AddName, AddPrice, AddYear, AddVehicle);
+                string imagePath = SelectImage(); // Выбор изображения
+                AddCar(AddName, AddPrice, AddYear, AddVehicle, imagePath);
             }
             else
-                MessageBox.Show("Введите данные", "Добваление автомобиля", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            #endregion
-
-        #region Проверка есть ли машина с такими данными которые ввели в текстбоксы в БД
-            void AddCar(string Name, string Price, string Year, string Vehicle)
             {
-                // Подключение к БД
-                db = new DB();
-                db.getConnection();
-
-                using (SQLiteConnection connection = new SQLiteConnection(db.connection))
-                {
-                    SQLiteCommand command = connection.CreateCommand();
-                    connection.Open();
-
-                    int count = 0;
-                    // Команда для БД
-                    string query = @"SELECT * FROM cars WHERE name =
-                        '" + Name + "' " +
-                        "AND price='" + Price + "' " +
-                        "AND Year = '" + Year + "' " +
-                        "AND vehicle = '" + Vehicle + "'";
-                    command.CommandText = query;
-                    command.Connection = connection;
-
-                    SQLiteDataReader reader = command.ExecuteReader();
-                    while (reader.Read())
-                    {
-                        count++;
-                    }
-
-                    if (count == 1)
-                    {
-                        MessageBox.Show("Автомобиль с такими данными уже существует", "Добавление автомобиля", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        return;
-                    }
-                    else if (count == 0) 
-                        InsertData(Name, Price, Year, Vehicle);
-                }
+                MessageBox.Show("Введите данные", "Добавление автомобиля", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             #endregion
 
-        #region Добавление машины в БД
-            void InsertData(string Name, string Price, string Year, string Vehicle)
+            #region Проверка есть ли машина с такими данными которые ввели в текстбоксы в БД
+            void AddCar(string Name, string Price, string Year, string Vehicle, string imagePath)
             {
-                // Подключение к БД
+                // Проверка на существование автомобиля в базе
                 db = new DB();
                 db.getConnection();
 
                 using (SQLiteConnection connection = new SQLiteConnection(db.connection))
                 {
                     connection.Open();
-                    SQLiteCommand command = new SQLiteCommand();
-                    string query = @"INSERT INTO cars(name, price, year, vehicle) 
-                            VALUES(@Name, @Price, @Year, @Vehicle)";
-                    command.CommandText = query;
-                    command.Connection = connection;
-                     
-                    command.Parameters.Add(new SQLiteParameter("@Name", Name));
-                    command.Parameters.Add(new SQLiteParameter("@Price", Price));
-                    command.Parameters.Add(new SQLiteParameter("@Year", Year));
-                    command.Parameters.Add(new SQLiteParameter("@Vehicle", Vehicle));
-                    command.ExecuteNonQuery();
+                    using (SQLiteCommand command = new SQLiteCommand())
+                    {
+                        string query = @"SELECT COUNT(*) FROM cars WHERE name = @Name AND price = @Price AND year = @Year AND vehicle = @Vehicle";
+                        command.CommandText = query;
+                        command.Connection = connection;
 
-                    MessageBox.Show("Автомобиль добавлен", "Добавление автомобиля", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        command.Parameters.AddWithValue("@Name", Name);
+                        command.Parameters.AddWithValue("@Price", Price);
+                        command.Parameters.AddWithValue("@Year", Year);
+                        command.Parameters.AddWithValue("@Vehicle", Vehicle);
 
+                        int count = Convert.ToInt32(command.ExecuteScalar());
+                        if (count > 0)
+                        {
+                            MessageBox.Show("Автомобиль с такими данными уже существует", "Добавление автомобиля", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            return;
+                        }
+                    }
+                }
+
+                // Вставка данных в базу
+                InsertData(Name, Price, Year, Vehicle, imagePath);
+            }
+            #endregion
+
+            #region Добавление машины в БД
+            void InsertData(string Name, string Price, string Year, string Vehicle, string imagePath)
+            {
+                try
+                {
+                    // Преобразование и изменение размера изображения в массив байтов
+                    byte[] imageBytes = null;
+                    if (!string.IsNullOrWhiteSpace(imagePath))
+                    {
+                        imageBytes = ResizeImage(imagePath, 225, 130); // Изменение размера
+                    }
+
+                    using (SQLiteConnection connection = new SQLiteConnection(db.connection))
+                    {
+                        connection.Open();
+                        using (SQLiteCommand command = new SQLiteCommand())
+                        {
+                            string query = @"INSERT INTO cars (name, price, year, vehicle, image) 
+                                 VALUES (@Name, @Price, @Year, @Vehicle, @Image)";
+                            command.CommandText = query;
+                            command.Connection = connection;
+
+                            command.Parameters.AddWithValue("@Name", Name);
+                            command.Parameters.AddWithValue("@Price", Price);
+                            command.Parameters.AddWithValue("@Year", Year);
+                            command.Parameters.AddWithValue("@Vehicle", Vehicle);
+                            command.Parameters.AddWithValue("@Image", (object)imageBytes ?? DBNull.Value);
+
+                            command.ExecuteNonQuery();
+                            MessageBox.Show("Автомобиль добавлен с изображением", "Добавление автомобиля", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Ошибка: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+        }
+
+        private byte[] ResizeImage(string imagePath, int width, int height)
+        {
+            using (Image originalImage = Image.FromFile(imagePath))
+            {
+                using (Bitmap resizedBitmap = new Bitmap(width, height))
+                {
+                    using (Graphics graphics = Graphics.FromImage(resizedBitmap))
+                    {
+                        graphics.CompositingQuality = System.Drawing.Drawing2D.CompositingQuality.HighQuality;
+                        graphics.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
+                        graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
+
+                        // Рисуем изображение с новым размером
+                        graphics.DrawImage(originalImage, 0, 0, width, height);
+                    }
+
+                    // Конвертируем изображение в массив байтов
+                    using (MemoryStream memoryStream = new MemoryStream())
+                    {
+                        resizedBitmap.Save(memoryStream, originalImage.RawFormat);
+                        return memoryStream.ToArray();
+                    }
+                }
+            }
+        }
+
+        private string SelectImage()
+        {
+            using (OpenFileDialog openFileDialog = new OpenFileDialog())
+            {
+                openFileDialog.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp|All Files|*.*";
+                openFileDialog.Title = "Выберите изображение автомобиля";
+
+                if (openFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    return openFileDialog.FileName; // Возвращаем путь к выбранному изображению
+                }
+            }
+            return null; // Если пользователь отменил выбор
         }
         #endregion
 

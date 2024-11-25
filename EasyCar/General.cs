@@ -72,20 +72,6 @@ namespace EasyCar
             this.Close();
         }
 
-        // Переход на окно мдк
-        private void mdk_Click(object sender, EventArgs e)
-        {
-            Form fCatalog = new mdk();
-            fCatalog.Show();
-            fCatalog.FormClosed += new FormClosedEventHandler(form_FormClosed4);
-            this.Hide();
-        }
-
-        // Закрытие текущей формы
-        void form_FormClosed4(object sender, FormClosedEventArgs e)
-        {
-            this.Close();
-        }
         #endregion
     }
 }
