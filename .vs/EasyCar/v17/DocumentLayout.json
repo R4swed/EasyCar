@@ -1,14 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ycheba\\Ya\\EasyCar\\EasyCar\\",
+  "WorkspaceRootPath": "D:\\asd\\EasyCar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{31328E1D-6DA0-4F69-B17F-F082D4FAC093}|EasyCar\\EasyCar.csproj|D:\\ycheba\\Ya\\EasyCar\\EasyCar\\easycar\\admincatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{31328E1D-6DA0-4F69-B17F-F082D4FAC093}|EasyCar\\EasyCar.csproj|d:\\asd\\easycar\\easycar\\adminusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31328E1D-6DA0-4F69-B17F-F082D4FAC093}|EasyCar\\EasyCar.csproj|solutionrelative:easycar\\adminusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31328E1D-6DA0-4F69-B17F-F082D4FAC093}|EasyCar\\EasyCar.csproj|d:\\asd\\easycar\\easycar\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31328E1D-6DA0-4F69-B17F-F082D4FAC093}|EasyCar\\EasyCar.csproj|solutionrelative:easycar\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31328E1D-6DA0-4F69-B17F-F082D4FAC093}|EasyCar\\EasyCar.csproj|d:\\asd\\easycar\\easycar\\admincatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31328E1D-6DA0-4F69-B17F-F082D4FAC093}|EasyCar\\EasyCar.csproj|solutionrelative:easycar\\admincatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31328E1D-6DA0-4F69-B17F-F082D4FAC093}|EasyCar\\EasyCar.csproj|d:\\ycheba\\ya\\easycar\\easycar\\easycar\\admincatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{31328E1D-6DA0-4F69-B17F-F082D4FAC093}|EasyCar\\EasyCar.csproj|d:\\asd\\easycar\\easycar\\ekz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31328E1D-6DA0-4F69-B17F-F082D4FAC093}|EasyCar\\EasyCar.csproj|solutionrelative:easycar\\ekz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31328E1D-6DA0-4F69-B17F-F082D4FAC093}|EasyCar\\EasyCar.csproj|d:\\asd\\easycar\\easycar\\ekz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{31328E1D-6DA0-4F69-B17F-F082D4FAC093}|EasyCar\\EasyCar.csproj|solutionrelative:easycar\\ekz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31328E1D-6DA0-4F69-B17F-F082D4FAC093}|EasyCar\\EasyCar.csproj|D:\\asd\\EasyCar\\easycar\\admincatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{31328E1D-6DA0-4F69-B17F-F082D4FAC093}|EasyCar\\EasyCar.csproj|solutionrelative:easycar\\admincatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31328E1D-6DA0-4F69-B17F-F082D4FAC093}|EasyCar\\EasyCar.csproj|d:\\asd\\easycar\\easycar\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{31328E1D-6DA0-4F69-B17F-F082D4FAC093}|EasyCar\\EasyCar.csproj|solutionrelative:easycar\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31328E1D-6DA0-4F69-B17F-F082D4FAC093}|EasyCar\\EasyCar.csproj|d:\\asd\\easycar\\easycar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31328E1D-6DA0-4F69-B17F-F082D4FAC093}|EasyCar\\EasyCar.csproj|solutionrelative:easycar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,36 +42,120 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminCatalog.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\ycheba\\Ya\\EasyCar\\EasyCar\\EasyCar\\AdminCatalog.cs",
-              "RelativeDocumentMoniker": "EasyCar\\AdminCatalog.cs",
-              "ToolTip": "D:\\ycheba\\Ya\\EasyCar\\EasyCar\\EasyCar\\AdminCatalog.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
-              "RelativeToolTip": "EasyCar\\AdminCatalog.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "DocumentIndex": 0,
+              "Title": "AdminUsers.cs",
+              "DocumentMoniker": "D:\\asd\\EasyCar\\EasyCar\\AdminUsers.cs",
+              "RelativeDocumentMoniker": "EasyCar\\AdminUsers.cs",
+              "ToolTip": "D:\\asd\\EasyCar\\EasyCar\\AdminUsers.cs",
+              "RelativeToolTip": "EasyCar\\AdminUsers.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAkwHgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T15:57:02.176Z",
+              "WhenOpened": "2024-11-26T05:47:23.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ekz.cs",
+              "DocumentMoniker": "D:\\asd\\EasyCar\\EasyCar\\ekz.cs",
+              "RelativeDocumentMoniker": "EasyCar\\ekz.cs",
+              "ToolTip": "D:\\asd\\EasyCar\\EasyCar\\ekz.cs",
+              "RelativeToolTip": "EasyCar\\ekz.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAPQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T05:40:00.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminCatalog.cs",
+              "DocumentMoniker": "D:\\asd\\EasyCar\\EasyCar\\AdminCatalog.cs",
+              "RelativeDocumentMoniker": "EasyCar\\AdminCatalog.cs",
+              "ToolTip": "D:\\asd\\EasyCar\\EasyCar\\AdminCatalog.cs",
+              "RelativeToolTip": "EasyCar\\AdminCatalog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0BAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T12:15:47.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ekz.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\asd\\EasyCar\\EasyCar\\ekz.cs",
+              "RelativeDocumentMoniker": "EasyCar\\ekz.cs",
+              "ToolTip": "D:\\asd\\EasyCar\\EasyCar\\ekz.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "EasyCar\\ekz.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T05:33:48.772Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdminCatalog.cs",
-              "DocumentMoniker": "D:\\ycheba\\Ya\\EasyCar\\EasyCar\\EasyCar\\AdminCatalog.cs",
-              "RelativeDocumentMoniker": "EasyCar\\AdminCatalog.cs",
-              "ToolTip": "D:\\ycheba\\Ya\\EasyCar\\EasyCar\\EasyCar\\AdminCatalog.cs*",
-              "RelativeToolTip": "EasyCar\\AdminCatalog.cs*",
-              "ViewState": "AgIAAI8AAAAAAAAAAAAqwIAAAAANAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Auth.cs",
+              "DocumentMoniker": "D:\\asd\\EasyCar\\EasyCar\\Auth.cs",
+              "RelativeDocumentMoniker": "EasyCar\\Auth.cs",
+              "ToolTip": "D:\\asd\\EasyCar\\EasyCar\\Auth.cs",
+              "RelativeToolTip": "EasyCar\\Auth.cs",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAkwJUAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T12:15:47.748Z",
+              "WhenOpened": "2024-11-26T05:31:58.848Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Auth.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\asd\\EasyCar\\EasyCar\\Auth.cs",
+              "RelativeDocumentMoniker": "EasyCar\\Auth.cs",
+              "ToolTip": "D:\\asd\\EasyCar\\EasyCar\\Auth.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "EasyCar\\Auth.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T05:31:55.833Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\asd\\EasyCar\\EasyCar\\Program.cs",
+              "RelativeDocumentMoniker": "EasyCar\\Program.cs",
+              "ToolTip": "D:\\asd\\EasyCar\\EasyCar\\Program.cs",
+              "RelativeToolTip": "EasyCar\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T05:17:06.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminCatalog.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\asd\\EasyCar\\EasyCar\\AdminCatalog.cs",
+              "RelativeDocumentMoniker": "EasyCar\\AdminCatalog.cs",
+              "ToolTip": "D:\\asd\\EasyCar\\EasyCar\\AdminCatalog.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "EasyCar\\AdminCatalog.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:57:02.176Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             }
           ]
         }

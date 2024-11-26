@@ -128,6 +128,10 @@ namespace EasyCar
                 {
                     AddAccount(emailUser, phoneUser, passwordUser, roleUser);
                 }
+                else if (roleUser == "editor")
+                {
+                    AddAccount(emailUser, phoneUser, passwordUser, roleUser);
+                }
                 else if (roleUser == "client")
                 {
                     AddAccount(emailUser, phoneUser, passwordUser, roleUser);

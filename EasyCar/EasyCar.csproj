@@ -152,6 +152,12 @@
     <Compile Include="AdminUsers.Designer.cs">
       <DependentUpon>AdminUsers.cs</DependentUpon>
     </Compile>
+    <Compile Include="ekz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ekz.Designer.cs">
+      <DependentUpon>ekz.cs</DependentUpon>
+    </Compile>
     <Compile Include="mdk.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -201,6 +207,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AdminUsers.resx">
       <DependentUpon>AdminUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ekz.resx">
+      <DependentUpon>ekz.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mdk.resx">
       <DependentUpon>mdk.cs</DependentUpon>

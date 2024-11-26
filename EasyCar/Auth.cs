@@ -158,6 +158,20 @@ namespace EasyCar
                             }
                         }
 
+                        else if (Userrole == "editor")
+                        {
+                            MessageBox.Show("Вы вошли", "Авторизация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            ekz ekz = new ekz();
+                            ekz.Show();
+                            ekz.FormClosed += new FormClosedEventHandler(form_FormClosed);
+                            this.Hide();
+
+                            void form_FormClosed(object sender, FormClosedEventArgs e)
+                            {
+                                this.Close();
+                            }
+                        }
+
                         // Иначе перейти на клиентскую часть
                         else
                         {
